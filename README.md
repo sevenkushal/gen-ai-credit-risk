@@ -4,7 +4,7 @@
 
 **Steps -**
 1) Create a logistic regression model trained on our labelled data to understand the coefficients for each of the variables
-2) The coefficients are provided to the LLM as a prompt along with instructions on how we would want the agent to provide reports for each of the users
+2) The coefficients are provided to the LLM as a prompt along with instructions on how we would want the fine-tuned model to provide reports for each of the users
 3) The fine-tuned model is generated based on training data. We have used 10 samples to train the LLM
 4) An output in the form of a crisp 100-word paragraph is generated for end-users
 
