@@ -1,5 +1,16 @@
 **AI-Powered Credit Risk Assessment Summaries**
 
+**Motivation -** 
+It's crucial to ensure that Machine Learning models are explainable i.e. the ability to understand why a model is providing a certain outcome based on the provided independent variables. The explainability aspect is especially important to establish trust with end-users for continued used of these ML models.
+
+This becomes even more important for use cases such as credit risk assessments for lending, both due to regulation ensuring fairness and to promote better decision-making.
+However, explainability comes at the cost of:
+1) Several layers for credit approval
+2) Leading to increase in average approval time
+3) Resulting in slower customer onboarding
+
+This project is a crude effort to use a LLM for introducing explainability to enable faster decision-making for credit risk assessment outcomes.
+
 **Objective -** To create an agent that can provide end-users with a concise report about the rationale behind why a certain user has their loan_status as 0 (not likely to default) or 1 (likely to default).
 
 **Steps -**
